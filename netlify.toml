@@ -5,7 +5,19 @@
 [build.environment]
   NODE_VERSION = "18"
 
+# SPA redirect for React Router
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Ensure assets are served with correct MIME types
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Content-Type = "text/css"
