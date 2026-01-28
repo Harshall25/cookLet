@@ -1,6 +1,10 @@
+<div align="center">
+
 # CookLet - Food Recipe App
 
 A modern recipe discovery application built with React.
+
+</div>
 
 ## Features
 
@@ -14,16 +18,16 @@ A modern recipe discovery application built with React.
 <div align="center">
 
 ##### Home 
-<img src="image.png" alt="Home Page" width="400"/>
+<img src="image.png" alt="Home Page" width="500"/>
 
 ##### Recipe Search Results
-<img src="image-1.png" alt="Recipe Search Results" width="400"/>
+<img src="image-1.png" alt="Recipe Search Results" width="500"/>
 
 ##### Recipe Details
-<img src="image-2.png" alt="Recipe Details" width="400"/>
+<img src="image-2.png" alt="Recipe Details" width="500"/>
 
 ##### Favourites Page
-<img src="image-3.png" alt="Favorites Page" width="400"/>
+<img src="image-3.png" alt="Favorites Page" width="500"/>
 
 </div>
 
