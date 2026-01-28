@@ -9,12 +9,14 @@ export function GlobalContextProvider({ children }) {
     const [recipeList, setRecipeList] = useState([]);
     const [Error, setError] = useState(null);
     const [favouriteRecipes, setFavouriteRecipes] = useState([]);
+    const [hasSearched, setHasSearched] = useState(false);
 
     async function handleSubmit(event) {
         event.preventDefault();
         
         try {
             SetLoading(true);
+            setHasSearched(true);
             const response = await fetch(`https://forkify-api.jonas.io/api/v2/recipes?search=${searchParam}`);
             if (!response.ok) {
                 throw new Error('Failed to fetch recipes');
@@ -51,7 +53,7 @@ export function GlobalContextProvider({ children }) {
     
     }, [favouriteRecipes]);
 
-    return (<GlobalContext.Provider value={{ searchParam, setSearchParam, handleSubmit, recipeList, setRecipeList, loading, Error, favouriteRecipes, setFavouriteRecipes, handleFavourites, removeFavourite}} >
+    return (<GlobalContext.Provider value={{ searchParam, setSearchParam, handleSubmit, recipeList, setRecipeList, loading, Error, favouriteRecipes, setFavouriteRecipes, handleFavourites, removeFavourite, hasSearched}} >
         {children}
     </GlobalContext.Provider>
     );
