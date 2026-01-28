@@ -9,15 +9,16 @@ import { Home } from './pages/home/Home'
 function App() {
 
   return (
-    <div>
-      <div>
-        <NavBar />
+    <div className="min-h-screen flex flex-col">
+      <NavBar />
+      <main className="grow">
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route  path='/favourites' element={<Favourite />}/>
           <Route path='/recipe-detail/:id' element={<Details />}/>
         </Routes>
-      </div>
+      </main>
+      
     </div>
 
   );
