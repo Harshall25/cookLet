@@ -4,7 +4,7 @@
 
 A modern recipe discovery application built with React.
 
-**🌐 App Live at:** [https://glistening-liger-1ed990.netlify.app/](https://glistening-liger-1ed990.netlify.app/)
+**App Live at:** [https://glistening-liger-1ed990.netlify.app/](https://glistening-liger-1ed990.netlify.app/)
 
 </div>
 
@@ -20,16 +20,16 @@ A modern recipe discovery application built with React.
 <div align="center">
 
 ##### Home 
-<img src="image.png" alt="Home Page" width="400"/>
+<img src="image.png" alt="Home Page" width="900"/>
 
 ##### Recipe Search Results
-<img src="image-1.png" alt="Recipe Search Results" width="400"/>
+<img src="image-1.png" alt="Recipe Search Results" width="900"/>
 
 ##### Recipe Details
-<img src="image-2.png" alt="Recipe Details" width="400"/>
+<img src="image-2.png" alt="Recipe Details" width="900"/>
 
 ##### Favourites Page
-<img src="image-3.png" alt="Favorites Page" width="400"/>
+<img src="image-3.png" alt="Favorites Page" width="900"/>
 
 </div>
 
