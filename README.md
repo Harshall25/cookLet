@@ -11,15 +11,21 @@ A modern recipe discovery application built with React.
 
 ## Screenshots
 
+<div align="center">
+
 ##### Home 
-![Home Page](image.png)
+<img src="image.png" alt="Home Page" width="400"/>
+
 ##### Recipe Search Results
-![Recipe Search Results](image-1.png)
+<img src="image-1.png" alt="Recipe Search Results" width="400"/>
+
 ##### Recipe Details
-![Recipe Details](image-2.png)
+<img src="image-2.png" alt="Recipe Details" width="400"/>
 
 ##### Favourites Page
-![Favorites Page](image-3.png)
+<img src="image-3.png" alt="Favorites Page" width="400"/>
+
+</div>
 
 ## Tech Stack
 
